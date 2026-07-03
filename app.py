@@ -375,7 +375,7 @@ if len(st.session_state.messages) == 0 and not query_to_process:
             st.rerun()
     with col2:
         if st.button("💻 เบอร์ติดต่อ IT", use_container_width=True):
-            st.session_state.clicked_suggestion = "เบอร์ติดต่อ IT คืออะไร"
+            st.session_state.clicked_suggestion = "เบอร์ติดต่อ IT"
             st.rerun()
     with col3:
         if st.button("🏥 นโยบายการลาป่วย", use_container_width=True):
