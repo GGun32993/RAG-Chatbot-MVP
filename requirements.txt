@@ -1,0 +1,10 @@
+pdfplumber
+langchain
+langchain-community
+langchain-chroma
+langchain-google-genai
+chromadb
+streamlit
+python-dotenv
+reportlab
+pydantic

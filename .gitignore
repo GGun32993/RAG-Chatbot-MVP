@@ -1,0 +1,19 @@
+# Python virtual environments and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+ENV/
+
+# Configuration and Keys
+.env
+
+# Vector database files
+chroma_db/
+
+# IDE files
+.vscode/
+.idea/
