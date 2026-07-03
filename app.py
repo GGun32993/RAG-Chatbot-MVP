@@ -31,27 +31,70 @@ st.markdown("""
     
     /* Custom Header card */
     .header-card {
-        background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
-        padding: 2.2rem 1.8rem;
-        border-radius: 16px;
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        padding: 2.5rem 2rem;
+        border-radius: 20px;
         margin-bottom: 2rem;
-        color: white;
         text-align: center;
-        box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.3);
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.5);
     }
+    
+    /* Decorative glowing orb behind the header */
+    .header-card::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 60%);
+        pointer-events: none;
+        z-index: 1;
+    }
+    
+    .header-badge {
+        display: inline-block;
+        background: linear-gradient(90deg, rgba(59, 130, 246, 0.15) 0%, rgba(139, 92, 246, 0.15) 100%);
+        border: 1px solid rgba(99, 102, 241, 0.3);
+        color: #a5b4fc !important;
+        padding: 5px 14px;
+        border-radius: 30px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 1.2rem;
+        position: relative;
+        z-index: 2;
+    }
+    
     .header-card h1 {
         margin: 0;
-        font-size: 2.2rem;
-        font-weight: 700;
+        font-size: 2.4rem;
+        font-weight: 800;
         letter-spacing: -0.025em;
-        color: #FFFFFF !important;
+        background: linear-gradient(135deg, #ffffff 40%, #bfdbfe 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        z-index: 2;
     }
+    
     .header-card p {
-        margin-top: 0.75rem;
+        margin-top: 0.8rem;
         margin-bottom: 0;
         font-size: 1.1rem;
-        color: rgba(255, 255, 255, 0.9) !important;
-        font-weight: 300;
+        color: #94a3b8 !important;
+        font-weight: 400;
+        line-height: 1.6;
+        position: relative;
+        z-index: 2;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Citation badge style */
@@ -101,8 +144,9 @@ st.markdown("""
 # Custom Header
 st.markdown("""
 <div class="header-card">
+    <div class="header-badge">✨ AI-Powered Workspace</div>
     <h1>🏢 HR Intelligent Chatbot</h1>
-    <p>ค้นหาและถาม-ตอบข้อมูลกฎการลา เบอร์ภายใน และสวัสดิการของพนักงาน</p>
+    <p>ค้นหาและถาม-ตอบข้อมูลกฎการลา เบอร์ภายใน และสวัสดิการของพนักงานด้วย AI อัจฉริยะ</p>
 </div>
 """, unsafe_allow_html=True)
 
