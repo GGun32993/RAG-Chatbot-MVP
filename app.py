@@ -290,13 +290,6 @@ st.markdown("""
 <h1>HR Intelligent Chatbot</h1>
 </div>
 <p>ค้นหาและถาม-ตอบข้อมูลกฎการลา เบอร์ภายใน และสวัสดิการของพนักงานด้วย AI อัจฉริยะ</p>
-<div class="trust-container">
-<span class="trust-item"><span class="trust-icon">📄</span> ครอบคลุม 3 เอกสารนโยบายหลัก</span>
-<span class="trust-divider">•</span>
-<span class="trust-item"><span class="trust-icon">⚡</span> ตอบใน &lt; 3 วินาที</span>
-<span class="trust-divider">•</span>
-<span class="trust-item"><span class="trust-icon">🔒</span> ข้อมูลบริษัทปลอดภัย 100%</span>
-</div>
 </div>
 """, unsafe_allow_html=True)
 
