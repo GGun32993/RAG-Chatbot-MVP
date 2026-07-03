@@ -374,7 +374,7 @@ if len(st.session_state.messages) == 0 and not query_to_process:
             st.session_state.clicked_suggestion = "ลาพักร้อนได้กี่วันต่อปี"
             st.rerun()
     with col2:
-        if st.button("💻 เบอร์ติดต่อ IT คืออะไร", use_container_width=True):
+        if st.button("💻 เบอร์ติดต่อ IT", use_container_width=True):
             st.session_state.clicked_suggestion = "เบอร์ติดต่อ IT คืออะไร"
             st.rerun()
     with col3:
