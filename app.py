@@ -270,34 +270,33 @@ st.markdown("""
 # Custom Header
 st.markdown("""
 <div class="header-card">
-    <div class="header-badge">
-        <span class="animated-spark">✨</span> AI-Powered Workspace
-    </div>
-    <div class="header-title-container">
-        <svg class="header-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <linearGradient id="icon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#6366f1" />
-                    <stop offset="100%" stop-color="#a855f7" />
-                </linearGradient>
-            </defs>
-            <path d="M12 2C6.477 2 2 6.477 2 12c0 1.886.525 3.647 1.44 5.16L2.05 21.95a1 1 0 001.21 1.21l4.79-1.39A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" fill="url(#icon-grad)" />
-            <circle cx="8" cy="12" r="1.2" fill="#ffffff" />
-            <circle cx="12" cy="12" r="1.2" fill="#ffffff" />
-            <circle cx="16" cy="12" r="1.2" fill="#ffffff" />
-            <path d="M19 3l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7L19 3z" fill="#ffffff" />
-        </svg>
-        <h1>HR Intelligent Chatbot</h1>
-    </div>
-    <p>ค้นหาและถาม-ตอบข้อมูลกฎการลา เบอร์ภายใน และสวัสดิการของพนักงานด้วย AI อัจฉริยะ</p>
-    
-    <div class="trust-container">
-        <span class="trust-item"><span class="trust-icon">📄</span> ครอบคลุม 3 เอกสารนโยบายหลัก</span>
-        <span class="trust-divider">•</span>
-        <span class="trust-item"><span class="trust-icon">⚡</span> ตอบใน &lt; 3 วินาที</span>
-        <span class="trust-divider">•</span>
-        <span class="trust-item"><span class="trust-icon">🔒</span> ข้อมูลบริษัทปลอดภัย 100%</span>
-    </div>
+<div class="header-badge">
+<span class="animated-spark">✨</span> AI-Powered Workspace
+</div>
+<div class="header-title-container">
+<svg class="header-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="icon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#6366f1" />
+<stop offset="100%" stop-color="#a855f7" />
+</linearGradient>
+</defs>
+<path d="M12 2C6.477 2 2 6.477 2 12c0 1.886.525 3.647 1.44 5.16L2.05 21.95a1 1 0 001.21 1.21l4.79-1.39A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" fill="url(#icon-grad)" />
+<circle cx="8" cy="12" r="1.2" fill="#ffffff" />
+<circle cx="12" cy="12" r="1.2" fill="#ffffff" />
+<circle cx="16" cy="12" r="1.2" fill="#ffffff" />
+<path d="M19 3l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7L19 3z" fill="#ffffff" />
+</svg>
+<h1>HR Intelligent Chatbot</h1>
+</div>
+<p>ค้นหาและถาม-ตอบข้อมูลกฎการลา เบอร์ภายใน และสวัสดิการของพนักงานด้วย AI อัจฉริยะ</p>
+<div class="trust-container">
+<span class="trust-item"><span class="trust-icon">📄</span> ครอบคลุม 3 เอกสารนโยบายหลัก</span>
+<span class="trust-divider">•</span>
+<span class="trust-item"><span class="trust-icon">⚡</span> ตอบใน &lt; 3 วินาที</span>
+<span class="trust-divider">•</span>
+<span class="trust-item"><span class="trust-icon">🔒</span> ข้อมูลบริษัทปลอดภัย 100%</span>
+</div>
 </div>
 """, unsafe_allow_html=True)
 
