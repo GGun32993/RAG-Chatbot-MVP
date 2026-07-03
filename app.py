@@ -264,6 +264,7 @@ st.markdown("""
         box-shadow: 0 0 10px rgba(139, 92, 246, 0.6) !important;
     }
 </style>
+""", unsafe_allow_html=True)
 
 
 # Custom Header
